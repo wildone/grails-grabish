@@ -50,6 +50,9 @@ grails.project.dependency.resolution = {
         // specify dependencies here under either 'build', 'compile', 'runtime', 'test' or 'provided' scopes e.g.
         // runtime 'mysql:mysql-connector-java:5.1.29'
         // runtime 'org.postgresql:postgresql:9.3-1101-jdbc41'
+		runtime "org.gebish:geb-core:0.10.0"
+		runtime "org.seleniumhq.selenium:selenium-firefox-driver:2.43.1"
+		runtime "org.seleniumhq.selenium:selenium-support:2.43.1"
         test "org.grails:grails-datastore-test-support:1.0.2-grails-2.4"
     }
 
